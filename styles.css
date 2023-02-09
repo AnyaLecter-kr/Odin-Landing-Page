@@ -153,7 +153,7 @@ button:hover {
     font-weight: 200;
  }
 
- .cta-button { 
+ .cta-button2 { 
     background-color: #3882F6; 
     border: solid;
     color: #E5E7EB;
@@ -174,4 +174,12 @@ body {
     margin: 0;
     padding: 0;
 
+}
+
+footer { 
+    color: #F9FAF8;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
 }
