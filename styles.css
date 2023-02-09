@@ -72,11 +72,29 @@ button:hover {
     padding-top: 70px;
 }
 
+
+.feature-2 { 
+    background-color: #E5E7EB ;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature-3 { 
+    background-color: #F9FAF8;
+    height: 300px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
 .feature-title { 
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 500;
     padding-bottom: 50px;
+    color: #1F2937;
 }
 
 .featureitem {
@@ -103,6 +121,48 @@ button:hover {
 
 
 }
+
+.feature-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 20px 300px 20px 300px;
+ }
+
+ .quote-author { 
+    text-align: right;
+    margin-right: 500px;
+    font-weight: 600;
+ }
+
+ .cta-box { 
+    height: 150px;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .cta-text { 
+    color:#F9FAF8; 
+ }
+
+ .cta-text.subtext { 
+    font-weight: 200;
+ }
+
+ .cta-button { 
+    background-color: #3882F6; 
+    border: solid;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    text-align: center;
+    text-decoration: none;
+ }
 
 body { 
     background-color: #1f2937;
